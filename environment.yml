@@ -1,0 +1,14 @@
+name: multidim_recal
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - numpy==1.21.2
+    - scikit-learn==0.24.2
+    - scipy==1.7.1
+    - torch==1.10.0
+    - tqdm==4.64.0
+    - uncertainty-toolbox==0.1.1
+
